@@ -3,10 +3,14 @@
 create using [flutter](https://flutter.dev/) 
 
 uses [HackerNewsAPI](https://github.com/HackerNews/API)
+<p align="center"> 
+	<img src = "./ScreenShot/screenshot1.png">
+</p>
 
-![alt text](/home/kumar/AndroidStudioProjects/FlutterApps/hackernews/ScreenShot/mainpage.png)
 
-![alt text](/home/kumar/AndroidStudioProjects/FlutterApps/hackernews/ScreenShot/webview.png)
+<p align="center"> 
+	<img src = "./ScreenShot/screenshot2.png">
+</p>
 
 To Build
 	flutter run
