@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@id/fl_comments"
+            android:id="@+id/newsElements"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/newsHeading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="News Heading"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        />
+
+        <TextView
+                android:id="@+id/newsUrl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="News Url"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:fontFamily="@font/inter_light"/>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+        >
+
+            <TextView
+                    android:id="@+id/newsScore"
+                    android:layout_marginEnd="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/score_count"
+                    android:text="0" android:fontFamily="@font/inter_regular"/>
+
+            <TextView
+                    android:id="@+id/newsAuthor"
+                    android:layout_marginEnd="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="by " android:fontFamily="@font/inter_bold"/>
+
+            <TextView
+
+                    android:id="@+id/newsTime"
+                    android:layout_marginEnd="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0 Hours Ago" android:fontFamily="@font/inter_regular"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+<!--    <LinearLayout-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+
+        <FrameLayout
+                android:id="@+id/fl_comments"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <Button
+                    android:id="@+id/newsCommentCount"
+                    android:width="50dp"
+                    android:height="50dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="#ff6c47"
+                    android:background="@drawable/ic_comment_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="69dp" android:fontFamily="@font/inter_regular"/>
+
+        </FrameLayout>
+<!--    </LinearLayout>-->
+
+</RelativeLayout>
