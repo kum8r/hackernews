@@ -1,0 +1,28 @@
+ <div class="item-container">
+     <h5 class="item-title" (click)="onClick()" >
+         {{ item.title }}
+     </h5>
+     <p class="item-url" (click)="onClick()">
+         {{ item.url }}
+     </p>
+
+     <div class="components">
+        <span class="item-score">
+            <img src="assets/heart.svg" alt="">
+             {{ item.score }} Points
+        </span>
+        <span class="item-author">
+            <img src="assets/user.svg" alt="">
+            {{ item.by }}
+        </span>
+        <span class="item-time"> 
+            <img src="assets/clock.svg" alt="">
+             {{ time | dateAgo }} 
+        </span>
+        <span class="item-comment-count" (click)="onCommentClick()"> 
+            <img src="assets/message-square.svg" alt="">
+            {{ item.descendants }} comments
+        </span>
+     </div>
+ </div>
+  

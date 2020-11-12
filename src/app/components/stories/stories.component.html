@@ -1,0 +1,6 @@
+<div (scroll)="onWindowScroll()" *ngFor="let id of idList; let i = index">
+    <app-item [id]="id"></app-item>
+</div>
+<div [hidden]="!showprogressBar" class="progress" id="PreLoaderBar">
+    <div class="indeterminate"></div>
+</div> 

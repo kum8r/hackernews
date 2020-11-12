@@ -1,0 +1,34 @@
+.item-container {
+  /* border: 1px solid black;
+  border-radius: 10px; */
+  margin: auto 50px;
+  background-color: white;
+  padding: 10px;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.item-url {
+  font-weight: 300;
+}
+
+.item-author,
+.item-score,
+.item-comment-count,
+.item-time {
+  margin: 0 30px;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+
+* {
+  background-color: white;
+}
+
+.item-comment-count:hover,
+.item-url:hover,
+.item-title {
+  text-decoration: underline;
+}

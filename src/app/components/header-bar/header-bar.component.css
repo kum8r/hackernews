@@ -1,0 +1,22 @@
+.header-container {
+  background-color: #db5d3d;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+p {
+  color: white;
+  text-align: center;
+  background-color: #db5d3d;
+}
+
+.menu-bar ul {
+  list-style: none;
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.menu-item:hover {
+  text-decoration: underline;
+}
